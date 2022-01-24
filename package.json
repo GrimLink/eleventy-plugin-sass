@@ -1,0 +1,30 @@
+{
+  "name": "@grimlink/eleventy-plugin-sass",
+  "version": "1.0.0",
+  "description": "[![NPM version](https://img.shields.io/npm/v/@grimlink/eleventy-plugin-sass)](https://www.npmjs.org/package/@grimlink/eleventy-plugin-sass) ![license](https://img.shields.io/github/license/GrimLink/eleventy-plugin-sass)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrimLink/eleventy-plugin-sass.git"
+  },
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "11ty",
+    "plugin",
+    "sass",
+    "scss"
+  ],
+  "author": "GrimLink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrimLink/eleventy-plugin-sass/issues"
+  },
+  "homepage": "https://github.com/GrimLink/eleventy-plugin-sass#readme",
+  "11ty": {
+    "compatibility": ">=1.0.0"
+  }
+}
