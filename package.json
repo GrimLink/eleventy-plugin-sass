@@ -14,7 +14,7 @@
     "eleventy",
     "eleventy-plugin",
     "11ty",
-    "plugin",
+    "11ty-plugin",
     "sass",
     "scss"
   ],
