@@ -3,8 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/@grimlink/eleventy-plugin-sass)](https://www.npmjs.org/package/@grimlink/eleventy-plugin-sass)
 ![license](https://img.shields.io/github/license/GrimLink/eleventy-plugin-sass)
 
-This a simple wrapper,
-for config needed to setup Sass support in the new 11ty custom template languages feature.
+Simple 11ty config wrapper, for running Sass directly as custom template.
 
 ## Installation
 
