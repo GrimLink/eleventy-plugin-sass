@@ -58,7 +58,7 @@ There are off course options to tweak to your preference.
 | sass         |                  | the sass compiler to use           |
 | outputPath   | ""               | Output path for your CSS file(s)   |
 | outputStyle  | "expanded"       | Options are expanded or compressed |
-| includePaths | ["node_modules"] | List of extra folder to include    |
+| includePaths | ["node_modules"] | List of extra folders to include   |
 | sourceMap    | false            | If you want to use source maps     |
 
 If `outputPath` is empty,
