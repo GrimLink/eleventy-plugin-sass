@@ -8,6 +8,7 @@ module.exports = (eleventyConfig, options = {}) => {
         outputStyle = "expanded",
         includePaths = ["node_modules"],
         sourceMap = false,
+        cache = false,
     } = options;
     const outputFileExtension = "css";
 
@@ -25,7 +26,7 @@ module.exports = (eleventyConfig, options = {}) => {
     eleventyConfig.addExtension("scss", {
         outputFileExtension,
         compileOptions: {
-            cache: false,
+            cache,
             permalink: (_inputContent, inputPath) => (_data) => {
                 let parsed = path.parse(inputPath);
                 if (parsed.name.startsWith("_")) return; // Ignore partials
