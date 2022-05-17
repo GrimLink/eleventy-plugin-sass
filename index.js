@@ -35,6 +35,7 @@ module.exports = (eleventyConfig, options = {}) => {
                 return `/${outputPath}/${parsed.name}.${outputFileExtension}`;
             },
         },
+        getData: async () => ({ eleventyExcludeFromCollections: true }),
         compile: (inputContent, inputPath) => {
             let parsed = path.parse(inputPath);
             if (parsed.name.startsWith("_")) return; // Ignore partials
