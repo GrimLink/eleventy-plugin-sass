@@ -24,7 +24,7 @@ Second install Sass;
 npm install sass
 ```
 
-> We offer the freedom to pick your own Sass version.
+> **Note** We offer the freedom to pick your own Sass version.
 >
 > This allows you to update the Sass version,
 > without needing to rely on this plugin for that.
